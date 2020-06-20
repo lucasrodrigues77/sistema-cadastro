@@ -14,7 +14,7 @@
         <div class="console-underscore" id="console">&#95;</div>
     </div>
     <section class="container">
-      <div class="cards"> 
+      <div class="cards">
       
           <div class="card">
              <div class="face face1">
