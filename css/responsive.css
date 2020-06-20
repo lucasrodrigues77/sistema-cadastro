@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px) {
+    .container .cards{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+   .container .cards .card .face{
+       width: 280px;
+   }
+}
+
+@media screen and (max-width: 860px) {
+    .container .cards .card .face{
+        width: 250px;
+    }
+    .console-container {
+        width: 100%;
+        font-size: 2em;
+    }
+ }
+ 
+ @media screen and (max-width: 760px) {
+    .container .cards .card .face{
+        width: 200px;
+    }
+ }
+ 
+ @media screen and (max-width: 620px) {
+    .container .cards {
+        width: 100%;
+    }
+    .container .cards .card .face {
+        width: 180px;
+    }
+ }
+ @media screen and (max-width: 550px) {
+    .container .cards {
+        display: block;
+        margin-top: 50px;
+    }
+    .console-container {
+        height: 100px;
+
+    }
+    .container .cards .card .face{
+        width: 100%;
+    }
+    .container .cards .card .face.face1{
+        transform: translateY(0);
+    }
+    .container .cards .card .face.face2{
+        transform: translateY(0);
+    }
+ }
